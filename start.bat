@@ -1,0 +1,5 @@
+@echo off
+
+set MKL_DEBUG_CPU_TYPE=5
+CALL "%MKLROOT%\BIN\MKLVARS.bat" MKL_DEBUG_CPU_TYPE=5
+matlab.exe
